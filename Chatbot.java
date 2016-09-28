@@ -17,7 +17,6 @@ public class Chatbot
 		System.out.println("Hi I'm Chatbot. What's your name?");
 		String userName = keys.nextLine();
 	
-		// TODO greet user by name
 		System.out.println("Nice to meet you " + userName + ", how old are you?");
 		int age = keys.nextInt(); // Leaves the pointer before the newline character
 		keys.nextLine(); // Gets the pointer to the beginning of the next line. Always do this after nextInt or nextDouble.
